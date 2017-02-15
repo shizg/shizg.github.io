@@ -431,7 +431,7 @@ $(function() {
         routes: {
             "": "index",
             "cate/:cate": "cate",
-            "show/:article": "show",
+            "show/:folder/:article": "show",
             "page/:num":"page"
         },
         make_main_view: function(cate, article,pagenum) {
@@ -453,8 +453,8 @@ $(function() {
         cate: function(cate) {
             this.make_main_view(cate, 'index',1);
         },
-        show: function(article) {
-            this.make_main_view(null, article,1);
+        show: function(folder, article) {
+            this.make_main_view(null, folder + '/' + article,1);
         },
         page: function(num){
             this.make_main_view(null,'index',num);
