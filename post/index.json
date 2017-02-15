@@ -1,5 +1,5 @@
 {
-    "site_name": "多多de棉花糖",
+    "site_name": "史忠高的博客",
     "copyright": "SYSCDE",
     "cates": [
         {"name": "tech", "text":"工作"},
@@ -7,6 +7,9 @@
         {"name": "other", "text":"其它"}
     ],
     "articles":[
+		{"title": "树莓派-vpn服务器与http代理服务器", "file": "2017-02/14-rpi-vpn123", "cate":"tech"},
+		{"title": "JSBlog博客程序", "file": "2017-01/19-jsblog123", "cate":"tech"},
+
 		{"title": "JSBlog博客程序", "file": "2013-10-19-jsblog", "cate":"tech"},
 		{"title": "树莓派-vpn服务器与http代理服务器", "file": "2013-08-14-rpi-vpn", "cate":"tech"},
         {"title": "PPT Plex", "file": "2013-04-17-pptplex", "cate":"tech"},
@@ -31,6 +34,5 @@
         {"title": "关于octopress中文乱码", "file": "2012-09-06-about-octopress", "cate":"tech"},
         {"title": "命令行环境使用phonegap", "file": "2012-09-05-android-commend-line", "cate":"tech"},
         {"title": "notepad++ markdown语法高亮", "file": "2012-08-31-notepad++-markdown-plugin", "cate":"tech"}
-    
     ]
 }
